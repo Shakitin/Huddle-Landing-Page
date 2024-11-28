@@ -264,7 +264,1114 @@ article.note{
 
 
 
-@media screen and (max-width: 390px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1115px){
+  .main{
+    background: url(background.jpg);
+    background-size: cover;
+    background-position: 50%;
+    width: 100vw;
+    height: 105vh;
+  }
+  
+  header{
+    display: flex;
+    margin: 20px;
+    margin-left: 75px;
+  }
+  .title{
+    margin-left: 4px;
+    margin-top: 10%;
+    font-size: 25px;
+    color: white;
+  }
+  .logo{
+    height: 30px;
+    width: 35px;
+    margin-top: 10%;
+    color: white;
+  }
+
+  .column1{
+    box-sizing: border-box;
+    max-width: 50%;
+    width: 37%;
+    height: 10px;
+    margin-left: 75px;
+    align-content: center;
+  }
+  
+  .nav1{
+    padding: 5px;
+    height: 10px;
+  }
+  .searchbar1{
+    margin-left: 20px;
+    width: 70px;
+    height: 5px;
+    margin-top: 1px;
+  }
+  .menu{
+    height: 15px;
+    width: 25px;
+    color: white;
+    margin-right: 20px;
+  }
+  
+  .content1{
+    padding: 15px;
+    margin: 0;
+  }
+  .chat1{
+    display: flex;
+    margin: 0px;
+    padding: 12px;
+  }
+  .msg{
+    padding-top: 0px;
+    font-size: 10px;
+  }
+  .msg-content{
+    font-size: 7px;
+  }
+  .profileA{
+    height: 30px;
+    margin-right: 20px;
+    color: rgb(211, 131, 107);
+    background-color: rgb(211, 131, 107);
+    border-radius: 50%;
+  }
+  .profileB{
+    height: 30px;
+    margin-right: 20px;
+    color: rgb(51, 161, 175);
+    background-color: rgb(51, 161, 175);
+    border-radius: 50%;
+  }
+  .profileC{
+    height: 30px;
+    margin-right: 20px;
+    color: rgb(219, 96, 219);
+    background-color: rgb(219, 96, 219);
+    border-radius: 50%;
+  }
+  
+  #button{
+    background-color: grey;
+    border-radius: 80%;
+    color: grey;
+    margin: 2px;
+    padding-left: 02px;
+    font-size: 5px;
+  }
+  .buttons{
+    padding-top: 0px;
+    margin-left: 20px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .column2{
+    box-sizing: border-box;
+    width: 18%;
+    padding: 5px;
+    position: absolute;
+    top: 43%;
+    left: 32.5%;
+  }
+  .nav2{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(214, 94%, 6%);
+    padding: 7px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 3px;
+  }
+  .searchbar2{
+    margin-left: 8px;
+    width: 30px;
+    height: 2px;
+  }
+  .menu2{
+    height: 9px;
+    width: 10px;
+    color: white;
+    margin-right: 8px;
+  }
+  
+  .content2{
+    background-color: white;
+    margin: 0px;
+    padding: 5px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 0.5px solid grey;
+  }
+  
+  .chat2{
+    display: flex;
+    margin: 1px;
+  }
+  h5{
+    font-size: 9px;
+  }
+  .msg-content2{
+    font-size: 7px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  article{
+    padding: 5px;
+    margin: 0;
+    margin-top: 5%;
+    margin-left: 53%;
+    color: white;
+  }
+  article h1{
+    font-family: arial;
+    font-size: 20px;
+    margin: 0;
+  }
+  article .note{
+    font-size: 15px;
+    margin: 0 px;
+    font-family: arial;
+    line-height: 1.7em;
+  }
+  .register{
+    color: rgb(71, 71, 71);
+    display: inline-block;
+    padding: 10px 75px;
+    background-color: white;
+    border-radius: 36px;
+    font-family: arial;
+    font-size: 12px;
+    margin: 0;
+    margin-top: 25px;
+  }
+  
+  
+  
+  
+  .footnote{
+    color: black;
+    list-style: none;
+    margin-top: 30%;
+    margin-right: 20%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 920px){
+  .column1{
+    box-sizing: border-box;
+    max-width: 50%;
+    width: 40%;
+    height: 10px;
+    margin-left: 45px;
+    align-content: center;
+  }
+  
+  .nav1{
+    padding: 5px;
+    height: 10px;
+  }
+  .searchbar1{
+    margin-left: 20px;
+    width: 70px;
+    height: 5px;
+    margin-top: 1px;
+  }
+  .menu{
+    height: 15px;
+    width: 25px;
+    color: white;
+    margin-right: 20px;
+  }
+  
+  .content1{
+    padding: 10px;
+    margin: 0;
+  }
+  .chat1{
+    display: flex;
+    margin: 0px;
+    padding: 12px;
+  }
+  .msg{
+    padding-top: 0px;
+    font-size: 10px;
+  }
+  .msg-content{
+    font-size: 7px;
+  }
+  
+  
+  
+
+  
+  .column2{
+    box-sizing: border-box;
+    width: 18%;
+    padding: 5px;
+    position: absolute;
+    top: 38%;
+    left: 35%;
+  }
+  
+  .content2{
+    background-color: white;
+    margin: 0px;
+    padding: 5px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 0.5px solid grey;
+  }
+  
+  .chat2{
+    display: flex;
+    margin: 1px;
+  }
+  h5{
+    font-size: 7px;
+  }
+  .msg-content2{
+    font-size: 5px;
+  }
+  
+  
+  
+  
+  
+ 
+  .register{
+    color: rgb(71, 71, 71);
+    display: inline-block;
+    padding: 10px 75px;
+    background-color: white;
+    border-radius: 36px;
+    font-family: arial;
+    font-size: 12px;
+    margin: 0;
+    margin-top: 25px;
+  }
+ 
+  
+  .footnote{
+    color: black;
+    list-style: none;
+    margin-top: 39%;
+    margin-right: 10%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 844px){
+  .main{
+    background: url(background.jpg);
+    background-size: cover;
+    background-position: 50%;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  header{
+    display: flex;
+    margin: 20px;
+    margin-left: 45px;
+  }
+  .title{
+    margin-left: 4px;
+    margin-top: 10%;
+    font-size: 25px;
+    color: white;
+  }
+  .logo{
+    height: 30px;
+    width: 35px;
+    margin-top: 10%;
+    color: white;
+  }
+
+  .column1{
+    box-sizing: border-box;
+    max-width: 50%;
+    width: 40%;
+    height: 10px;
+    margin-left: 45px;
+    align-content: center;
+  }
+  
+  .nav1{
+    padding: 5px;
+    height: 10px;
+  }
+  .searchbar1{
+    margin-left: 20px;
+    width: 70px;
+    height: 5px;
+    margin-top: 1px;
+  }
+  .menu{
+    height: 15px;
+    width: 25px;
+    color: white;
+    margin-right: 20px;
+  }
+  
+  .content1{
+    padding: 5px;
+    margin: 0;
+  }
+  .chat1{
+    display: flex;
+    margin: 0px;
+    padding: 12px;
+  }
+  .msg{
+    padding-top: 0px;
+    font-size: 10px;
+  }
+  .msg-content{
+    font-size: 7px;
+  }
+  .profileA{
+    height: 20px;
+    margin-right: 20px;
+    color: rgb(211, 131, 107);
+    background-color: rgb(211, 131, 107);
+    border-radius: 50%;
+  }
+  .profileB{
+    height: 20px;
+    margin-right: 20px;
+    color: rgb(51, 161, 175);
+    background-color: rgb(51, 161, 175);
+    border-radius: 50%;
+  }
+  .profileC{
+    height: 20px;
+    margin-right: 20px;
+    color: rgb(219, 96, 219);
+    background-color: rgb(219, 96, 219);
+    border-radius: 50%;
+  }
+  
+  #button{
+    background-color: grey;
+    border-radius: 80%;
+    color: grey;
+    margin: 2px;
+    padding-left: 02px;
+    font-size: 5px;
+  }
+  .buttons{
+    padding-top: 0px;
+    margin-left: 20px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .column2{
+    box-sizing: border-box;
+    width: 18%;
+    padding: 5px;
+    position: absolute;
+    top: 36%;
+    left: 36%;
+  }
+  .nav2{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(214, 94%, 6%);
+    padding: 7px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 3px;
+  }
+  .searchbar2{
+    margin-left: 8px;
+    width: 30px;
+    height: 2px;
+  }
+  .menu2{
+    height: 9px;
+    width: 10px;
+    color: white;
+    margin-right: 8px;
+  }
+  
+  .content2{
+    background-color: white;
+    margin: 0px;
+    padding: 5px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 0.5px solid grey;
+  }
+  
+  .chat2{
+    display: flex;
+    margin: 1px;
+  }
+  h5{
+    font-size: 7px;
+  }
+  .msg-content2{
+    font-size: 5px;
+  }
+  .profile1{
+    height: 15px;
+    margin-right: 10px;
+    color: rgb(211, 131, 107);
+    background-color: rgb(211, 131, 107);
+    border-radius: 50%;
+  }
+  .profile2{
+    height: 15px;
+    margin-right: 10px;
+    color: rgb(51, 161, 175);
+    background-color: rgb(51, 161, 175);
+    border-radius: 50%;
+  }
+  .profile3{
+    height: 15px;
+    margin-right: 10px;
+    color: rgb(219, 96, 219);
+    background-color: rgb(219, 96, 219);
+    border-radius: 50%;
+  }
+  
+  
+  
+  
+  
+  
+  article{
+    padding: 5px;
+    margin: 0;
+    margin-top: 5%;
+    margin-left: 57%;
+    color: white;
+  }
+  article h1{
+    font-family: arial;
+    font-size: 20px;
+    margin: 0;
+  }
+  article .note{
+    font-size: 15px;
+    margin: 0 px;
+    font-family: arial;
+    line-height: 1.7em;
+  }
+  .register{
+    color: rgb(71, 71, 71);
+    display: inline-block;
+    padding: 10px 75px;
+    background-color: white;
+    border-radius: 36px;
+    font-family: arial;
+    font-size: 12px;
+    margin: 0;
+    margin-top: 25px;
+  }
+  
+  
+  
+  
+  .footnote{
+    color: black;
+    list-style: none;
+    margin-top: 49%;
+    margin-right: 10%;
+  }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 775px){
+  .main{
+    background: url(background.jpg);
+    background-size: cover;
+    background-position: 50%;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  header{
+    display: flex;
+    margin: 20px;
+    margin-left: 45px;
+  }
+  .title{
+    margin-left: 4px;
+    margin-top: 10%;
+    font-size: 25px;
+    color: white;
+  }
+  .logo{
+    height: 30px;
+    width: 35px;
+    margin-top: 10%;
+    color: white;
+  }
+
+  .column1{
+    box-sizing: border-box;
+    max-width: 50%;
+    width: 40%;
+    height: 10px;
+    margin-left: 45px;
+    align-content: center;
+  }
+  
+  .nav1{
+    padding: 5px;
+    height: 10px;
+  }
+  .searchbar1{
+    margin-left: 20px;
+    width: 70px;
+    height: 5px;
+    margin-top: 1px;
+  }
+  .menu{
+    height: 15px;
+    width: 25px;
+    color: white;
+    margin-right: 20px;
+  }
+  
+  .content1{
+    padding: 0;
+    margin: 0;
+  }
+  .chat1{
+    display: flex;
+    margin: 0px;
+    padding: 10px;
+  }
+  .msg{
+    padding-top: 0px;
+    font-size: 7px;
+  }
+  .msg-content{
+    font-size: 5px;
+  }
+  .profileA{
+    height: 15px;
+    margin-right: 20px;
+    margin-left: 15px;
+    color: rgb(211, 131, 107);
+    background-color: rgb(211, 131, 107);
+    border-radius: 50%;
+  }
+  .profileB{
+    height: 15px;
+    margin-right: 20px;
+    margin-left: 15px;
+    color: rgb(51, 161, 175);
+    background-color: rgb(51, 161, 175);
+    border-radius: 50%;
+  }
+  .profileC{
+    height: 15px;
+    margin-right: 20px;
+    margin-left: 15px;
+    color: rgb(219, 96, 219);
+    background-color: rgb(219, 96, 219);
+    border-radius: 50%;
+  }
+  
+  #button{
+    background-color: grey;
+    border-radius: 80%;
+    color: grey;
+    margin: 2px;
+    padding-left: 02px;
+    font-size: 5px;
+  }
+  .buttons{
+    padding-top: 0px;
+    margin-left: 20px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .column2{
+    box-sizing: border-box;
+    width: 18%;
+    padding: 5px;
+    position: absolute;
+    top: 36%;
+    left: 36%;
+  }
+  .nav2{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(214, 94%, 6%);
+    padding: 7px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 3px;
+  }
+  .searchbar2{
+    margin-left: 8px;
+    width: 30px;
+    height: 2px;
+  }
+  .menu2{
+    height: 9px;
+    width: 10px;
+    color: white;
+    margin-right: 8px;
+  }
+  
+  .content2{
+    background-color: white;
+    margin: 0px;
+    padding: 5px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 0.5px solid grey;
+  }
+  
+  .chat2{
+    display: flex;
+    margin: 1px;
+  }
+  h5{
+    font-size: 7px;
+  }
+  .msg-content2{
+    font-size: 5px;
+  }
+  .profile1{
+    height: 10px;
+    margin-right: 10px;
+    color: rgb(211, 131, 107);
+    background-color: rgb(211, 131, 107);
+    border-radius: 50%;
+  }
+  .profile2{
+    height: 10px;
+    margin-right: 10px;
+    color: rgb(51, 161, 175);
+    background-color: rgb(51, 161, 175);
+    border-radius: 50%;
+  }
+  .profile3{
+    height: 10px;
+    margin-right: 10px;
+    color: rgb(219, 96, 219);
+    background-color: rgb(219, 96, 219);
+    border-radius: 50%;
+  }
+  
+  
+  
+  
+  
+  
+  article{
+    padding: 5px;
+    margin: 0;
+    margin-top: 5%;
+    margin-left: 57%;
+    color: white;
+  }
+  article h1{
+    font-family: arial;
+    font-size: 20px;
+    margin: 0;
+  }
+  article .note{
+    font-size: 15px;
+    margin: 0 px;
+    font-family: arial;
+    line-height: 1.7em;
+  }
+  .register{
+    color: rgb(71, 71, 71);
+    display: inline-block;
+    padding: 10px 75px;
+    background-color: white;
+    border-radius: 36px;
+    font-family: arial;
+    font-size: 12px;
+    margin: 0;
+    margin-top: 25px;
+  }
+  
+  
+  
+  
+  .footnote{
+    color: black;
+    list-style: none;
+    margin-top: 49%;
+    margin-right: 10%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 570px){
+  .main{
+    height: 102.5vh;
+  }
+  
+  header{
+    display: flex;
+    margin: 20px;
+    margin-left: 45px;
+  }
+  .title{
+    margin-left: 0px;
+    margin-top: 10%;
+    font-size: 21px;
+    color: white;
+  }
+  .logo{
+    height: 21px;
+    width: 30px;
+    margin-top: 10.8%;
+    color: white;
+  }
+
+  .column1{
+    box-sizing: border-box;
+    max-width: 100%;
+    width: 50%;
+    height: 3px;
+    margin-left: 105px;
+  }
+  
+  .nav1{
+    padding: 5px;
+    height: 10px;
+  }
+  .searchbar1{
+    margin-left: 20px;
+    width: 70px;
+    height: 5px;
+    margin-top: 1px;
+  }
+  .menu{
+    height: 15px;
+    width: 25px;
+    color: white;
+    margin-right: 20px;
+  }
+  
+  .content1{
+    padding: 5px;
+    margin: 0;
+  }
+  .chat1{
+    display: flex;
+    margin: 0px;
+    padding: 7px;
+  }
+  .msg{
+    padding-top: 0px;
+    font-size: 7px;
+  }
+  .msg-content{
+    font-size: 4px;
+  }
+  .profileA{
+    height: 22px;
+    margin-right: 20px;
+    color: rgb(211, 131, 107);
+    background-color: rgb(211, 131, 107);
+    border-radius: 50%;
+  }
+  .profileB{
+    height: 22px;
+    margin-right: 20px;
+    color: rgb(51, 161, 175);
+    background-color: rgb(51, 161, 175);
+    border-radius: 50%;
+  }
+  .profileC{
+    height: 22px;
+    margin-right: 20px;
+    color: rgb(219, 96, 219);
+    background-color: rgb(219, 96, 219);
+    border-radius: 50%;
+  }
+  
+  #button{
+    background-color: grey;
+    border-radius: 80%;
+    color: grey;
+    margin: 2px;
+    padding-left: 02px;
+    font-size: 3px;
+  }
+  .buttons{
+    padding-top: 0px;
+    margin-left: 10px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .column2{
+    box-sizing: border-box;
+    width: 28%;
+    padding: 5px;
+    position: absolute;
+    top: 27%;
+    left: 57%;
+  }
+  .nav2{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(214, 94%, 6%);
+    padding: 7px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 3px;
+  }
+  .searchbar2{
+    margin-left: 8px;
+    width: 30px;
+    height: 2px;
+  }
+  .menu2{
+    height: 9px;
+    width: 10px;
+    color: white;
+    margin-right: 8px;
+  }
+  
+  .content2{
+    background-color: white;
+    margin: 0px;
+    padding: 1px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 0.5px solid grey;
+  }
+  
+  .chat2{
+    display: flex;
+    margin: 1px;
+  }
+  h5{
+    font-size: 5px;
+  }
+  .msg-content2{
+    font-size: 3px;
+  }
+  .profile1{
+    height: 10px;
+    margin-right: 10px;
+    color: rgb(211, 131, 107);
+    background-color: rgb(211, 131, 107);
+    border-radius: 50%;
+  }
+  .profile2{
+    height: 10px;
+    margin-right: 10px;
+    color: rgb(51, 161, 175);
+    background-color: rgb(51, 161, 175);
+    border-radius: 50%;
+  }
+  .profile3{
+    height: 10px;
+    margin-right: 10px;
+    color: rgb(219, 96, 219);
+    background-color: rgb(219, 96, 219);
+    border-radius: 50%;
+  }
+  
+  
+  
+  
+  
+  
+  
+  article{
+    padding: 5px;
+    margin: 0;
+    margin-top: 55%;
+    color: white;
+    text-align: center;
+  }
+  article h1{
+    font-family: arial;
+    font-size: 18px;
+    margin: 0;
+  }
+  article .note{
+    font-size: 14px;
+    margin: 0 45px;
+    font-family: arial;
+    line-height: 1.3em;
+  }
+  .register{
+    color: rgb(71, 71, 71);
+    display: inline-block;
+    padding: 10px 75px;
+    background-color: white;
+    border-radius: 36px;
+    font-family: arial;
+    font-size: 12px;
+    margin: 0;
+  }
+  .register:hover{
+    background-color:violet;
+    color: white;
+  }
+  
+  
+  
+  
+  .footnote{
+    color: black;
+    list-style: none;
+    margin-top: 9%;
+    margin-right: 39%;
+  }
+  .footnote li{
+    display: inline-block;
+    margin-right: 10px;
+    color: white;
+  }
+  .fb{
+    height: 25px;
+  
+  }
+  .tw{
+    height: 25px;
+  }
+  .ig{
+    height: 25px;
+  }
+  
+  .active:hover{
+    background-color:violet;
+    color: white;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 400px){
   .main{
     height: 100vh;
   }
@@ -329,21 +1436,21 @@ article.note{
     font-size: 4px;
   }
   .profileA{
-    height: 30px;
+    height: 25px;
     margin-right: 20px;
     color: rgb(211, 131, 107);
     background-color: rgb(211, 131, 107);
     border-radius: 50%;
   }
   .profileB{
-    height: 30px;
+    height: 25px;
     margin-right: 20px;
     color: rgb(51, 161, 175);
     background-color: rgb(51, 161, 175);
     border-radius: 50%;
   }
   .profileC{
-    height: 30px;
+    height: 25px;
     margin-right: 20px;
     color: rgb(219, 96, 219);
     background-color: rgb(219, 96, 219);
